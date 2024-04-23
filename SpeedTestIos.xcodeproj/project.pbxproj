@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006B7D28E112A13E73251F21 /* TuistBundle+SpeedTestIos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FB28D4DB2E48CB9A0A044E /* TuistBundle+SpeedTestIos.swift */; };
+		47DC0E9888E72B15795ECC12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE28A7DC0C79A37983C4D95 /* Assets.xcassets */; };
+		4882AB4CB352AB2A2928B87B /* TuistAssets+SpeedTestIos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE66EA52A4193CADE4A47F3 /* TuistAssets+SpeedTestIos.swift */; };
+		622F874B32E5DEFDF0C7B37C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7458BC41419223CAE14A075 /* LaunchScreen.storyboard */; };
+		6ECDE95BE310F8E24DD3A42F /* SpeedTestIosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BC355A878D43103826F02 /* SpeedTestIosApp.swift */; };
+		6ED9D32212F99B39F0896AE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89239AE4E6BC94A41C60B715 /* Preview Assets.xcassets */; };
+		71D54396AEE7E31849B97535 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0EC27C19A6BE087604A9C /* ContentView.swift */; };
+		A6B36A496EC9A522FEC03B97 /* SpeedTestIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE2456CBA7D05590D125D3 /* SpeedTestIosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BBF36D74EB3C8302B810C72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3BC38887883448D08BF9D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B610ED9A7EB35E32EF45A9;
+			remoteInfo = SpeedTestIos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39727F978131832C9742BA26 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5027689590FA24F9D431C0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28FE2456CBA7D05590D125D3 /* SpeedTestIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTestIosTests.swift; sourceTree = "<group>"; };
+		61FFA1108CDDB4619A880051 /* SpeedTestIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTestIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B0EC27C19A6BE087604A9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		696BC355A878D43103826F02 /* SpeedTestIosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTestIosApp.swift; sourceTree = "<group>"; };
+		6EE66EA52A4193CADE4A47F3 /* TuistAssets+SpeedTestIos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+SpeedTestIos.swift"; sourceTree = "<group>"; };
+		89239AE4E6BC94A41C60B715 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97FB28D4DB2E48CB9A0A044E /* TuistBundle+SpeedTestIos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+SpeedTestIos.swift"; sourceTree = "<group>"; };
+		A7458BC41419223CAE14A075 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B44BEAC78A7DBB6888848A18 /* SpeedTestIos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SpeedTestIos-Info.plist"; sourceTree = "<group>"; };
+		D7CD65445A6E108CFE4BCE4D /* SpeedTestIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTestIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F560B8A4C473CFA189A69C6D /* SpeedTestIosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SpeedTestIosTests-Info.plist"; sourceTree = "<group>"; };
+		FBE28A7DC0C79A37983C4D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6C4304F39F9668D97CC74DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AFCBE76E2C92A84A1B074D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		129F50B5D12ADF6D6752F7FA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6EE66EA52A4193CADE4A47F3 /* TuistAssets+SpeedTestIos.swift */,
+				97FB28D4DB2E48CB9A0A044E /* TuistBundle+SpeedTestIos.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		294455F6496291D74D2D8E50 = {
+			isa = PBXGroup;
+			children = (
+				6686251CF3F19C86B0728243 /* Project */,
+				A4AD3BA0A62C41567D0E710C /* Frameworks */,
+				B96A540A34DE979AF189858A /* Cache */,
+				609604FE111BE6684A2B74BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FFD082781F3DC4A21797A98 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				68B0EC27C19A6BE087604A9C /* ContentView.swift */,
+				696BC355A878D43103826F02 /* SpeedTestIosApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		609604FE111BE6684A2B74BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61FFA1108CDDB4619A880051 /* SpeedTestIos.app */,
+				D7CD65445A6E108CFE4BCE4D /* SpeedTestIosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6686251CF3F19C86B0728243 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				844E64B4051089F082D36EA1 /* Derived */,
+				A2A543B6621839A1F519F2CD /* SpeedTestIos */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		844E64B4051089F082D36EA1 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				A410BFD207D4ED67B5855C9B /* InfoPlists */,
+				129F50B5D12ADF6D6752F7FA /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		A2A543B6621839A1F519F2CD /* SpeedTestIos */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4501385D076EBEA7A4FDC /* Resources */,
+				2FFD082781F3DC4A21797A98 /* Sources */,
+				C6ECA0E490AE727A4B6FE630 /* Tests */,
+			);
+			path = SpeedTestIos;
+			sourceTree = "<group>";
+		};
+		A410BFD207D4ED67B5855C9B /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				B44BEAC78A7DBB6888848A18 /* SpeedTestIos-Info.plist */,
+				F560B8A4C473CFA189A69C6D /* SpeedTestIosTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		A4AD3BA0A62C41567D0E710C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B96A540A34DE979AF189858A /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+		C6ECA0E490AE727A4B6FE630 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				28FE2456CBA7D05590D125D3 /* SpeedTestIosTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D02125A4B177985B757656EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				89239AE4E6BC94A41C60B715 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6A4501385D076EBEA7A4FDC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D02125A4B177985B757656EF /* Preview Content */,
+				FBE28A7DC0C79A37983C4D95 /* Assets.xcassets */,
+				A7458BC41419223CAE14A075 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		631C4106CC4571A2C75CE4E5 /* SpeedTestIosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D99F8D76F1007089DD12AC /* Build configuration list for PBXNativeTarget "SpeedTestIosTests" */;
+			buildPhases = (
+				078D737935112FECE4BFD847 /* Sources */,
+				68B8F7237F9F6BC8D91E390E /* Resources */,
+				CC5027689590FA24F9D431C0 /* Embed Frameworks */,
+				F0AFCBE76E2C92A84A1B074D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C0A75BB57B2EE537E923600 /* PBXTargetDependency */,
+			);
+			name = SpeedTestIosTests;
+			productName = SpeedTestIosTests;
+			productReference = D7CD65445A6E108CFE4BCE4D /* SpeedTestIosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74B610ED9A7EB35E32EF45A9 /* SpeedTestIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F042A3C16F5DB6BF827462 /* Build configuration list for PBXNativeTarget "SpeedTestIos" */;
+			buildPhases = (
+				44E4436176E58A3F64000302 /* Sources */,
+				E5521FD33B4CD177F06A11A1 /* Resources */,
+				39727F978131832C9742BA26 /* Embed Frameworks */,
+				E6C4304F39F9668D97CC74DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedTestIos;
+			productName = SpeedTestIos;
+			productReference = 61FFA1108CDDB4619A880051 /* SpeedTestIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3BC38887883448D08BF9D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					631C4106CC4571A2C75CE4E5 = {
+						TestTargetID = 74B610ED9A7EB35E32EF45A9;
+					};
+				};
+			};
+			buildConfigurationList = 5D96F769BA9A2C4D80849D47 /* Build configuration list for PBXProject "SpeedTestIos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 294455F6496291D74D2D8E50;
+			productRefGroup = 609604FE111BE6684A2B74BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74B610ED9A7EB35E32EF45A9 /* SpeedTestIos */,
+				631C4106CC4571A2C75CE4E5 /* SpeedTestIosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B8F7237F9F6BC8D91E390E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5521FD33B4CD177F06A11A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DC0E9888E72B15795ECC12 /* Assets.xcassets in Resources */,
+				622F874B32E5DEFDF0C7B37C /* LaunchScreen.storyboard in Resources */,
+				6ED9D32212F99B39F0896AE2 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078D737935112FECE4BFD847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B36A496EC9A522FEC03B97 /* SpeedTestIosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E4436176E58A3F64000302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4882AB4CB352AB2A2928B87B /* TuistAssets+SpeedTestIos.swift in Sources */,
+				006B7D28E112A13E73251F21 /* TuistBundle+SpeedTestIos.swift in Sources */,
+				71D54396AEE7E31849B97535 /* ContentView.swift in Sources */,
+				6ECDE95BE310F8E24DD3A42F /* SpeedTestIosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C0A75BB57B2EE537E923600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpeedTestIos;
+			target = 74B610ED9A7EB35E32EF45A9 /* SpeedTestIos */;
+			targetProxy = 2BBF36D74EB3C8302B810C72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01E924690BB472BF93937927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/SpeedTestIosTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SpeedTestIosTests;
+				PRODUCT_NAME = SpeedTestIosTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTestIos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedTestIos";
+				TEST_TARGET_NAME = SpeedTestIos;
+			};
+			name = Release;
+		};
+		32554D3A590BA54629636E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/SpeedTestIos-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SpeedTestIos;
+				PRODUCT_NAME = SpeedTestIos;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A061A11C07D2A7BE6A00F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/SpeedTestIos-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SpeedTestIos;
+				PRODUCT_NAME = SpeedTestIos;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AB903C1C66DDBD12340CB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C53A9E1A99B82B7F02D68738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/SpeedTestIosTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SpeedTestIosTests;
+				PRODUCT_NAME = SpeedTestIosTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTestIos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedTestIos";
+				TEST_TARGET_NAME = SpeedTestIos;
+			};
+			name = Debug;
+		};
+		D511921E6B83FCC34666EA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48F042A3C16F5DB6BF827462 /* Build configuration list for PBXNativeTarget "SpeedTestIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A061A11C07D2A7BE6A00F22 /* Debug */,
+				32554D3A590BA54629636E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D96F769BA9A2C4D80849D47 /* Build configuration list for PBXProject "SpeedTestIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB903C1C66DDBD12340CB74 /* Debug */,
+				D511921E6B83FCC34666EA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D99F8D76F1007089DD12AC /* Build configuration list for PBXNativeTarget "SpeedTestIosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53A9E1A99B82B7F02D68738 /* Debug */,
+				01E924690BB472BF93937927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3BC38887883448D08BF9D8F /* Project object */;
+}
