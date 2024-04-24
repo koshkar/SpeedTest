@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SpeedTestIos/Models/Settings+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:SpeedTestIos/Models/Settings+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:SpeedTestIos.xcodeproj">
    </FileRef>
 </Workspace>

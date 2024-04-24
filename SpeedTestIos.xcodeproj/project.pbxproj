@@ -13,11 +13,14 @@
 		6ECDE95BE310F8E24DD3A42F /* SpeedTestIosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BC355A878D43103826F02 /* SpeedTestIosApp.swift */; };
 		6ED9D32212F99B39F0896AE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89239AE4E6BC94A41C60B715 /* Preview Assets.xcassets */; };
 		A6B36A496EC9A522FEC03B97 /* SpeedTestIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE2456CBA7D05590D125D3 /* SpeedTestIosTests.swift */; };
+		AE00B6BA2BD8F7E900551427 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE00B6B82BD8F7E900551427 /* CoreDataModel.xcdatamodeld */; };
 		AE97C6432BD7DA74001F6C1A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE97C6422BD7DA74001F6C1A /* MainView.swift */; };
 		AE97C6462BD7DD71001F6C1A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE97C6452BD7DD71001F6C1A /* SettingsView.swift */; };
 		AE97C6492BD7DED7001F6C1A /* SpeedTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE97C6482BD7DED7001F6C1A /* SpeedTestView.swift */; };
-		AE97C64C2BD7EA5F001F6C1A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AE97C64B2BD7EA5F001F6C1A /* Alamofire */; };
-		AE97C64E2BD7EA5F001F6C1A /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = AE97C64D2BD7EA5F001F6C1A /* AlamofireDynamic */; };
+		AE97C6512BD7EAAD001F6C1A /* ConnectionSpeedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE97C6502BD7EAAD001F6C1A /* ConnectionSpeedTest.swift */; };
+		AE97C65B2BD8517F001F6C1A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE97C65A2BD8517F001F6C1A /* CoreDataManager.swift */; };
+		AE97C6842BD86BBE001F6C1A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AE97C6832BD86BBE001F6C1A /* Alamofire */; };
+		AE97C6862BD86BBE001F6C1A /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = AE97C6852BD86BBE001F6C1A /* AlamofireDynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +63,12 @@
 		6EE66EA52A4193CADE4A47F3 /* TuistAssets+SpeedTestIos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+SpeedTestIos.swift"; sourceTree = "<group>"; };
 		89239AE4E6BC94A41C60B715 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		97FB28D4DB2E48CB9A0A044E /* TuistBundle+SpeedTestIos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+SpeedTestIos.swift"; sourceTree = "<group>"; };
+		AE00B6B92BD8F7E900551427 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		AE97C6422BD7DA74001F6C1A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		AE97C6452BD7DD71001F6C1A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		AE97C6482BD7DED7001F6C1A /* SpeedTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTestView.swift; sourceTree = "<group>"; };
+		AE97C6502BD7EAAD001F6C1A /* ConnectionSpeedTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionSpeedTest.swift; sourceTree = "<group>"; };
+		AE97C65A2BD8517F001F6C1A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		B44BEAC78A7DBB6888848A18 /* SpeedTestIos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SpeedTestIos-Info.plist"; sourceTree = "<group>"; };
 		D7CD65445A6E108CFE4BCE4D /* SpeedTestIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTestIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F560B8A4C473CFA189A69C6D /* SpeedTestIosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SpeedTestIosTests-Info.plist"; sourceTree = "<group>"; };
@@ -74,8 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE97C64C2BD7EA5F001F6C1A /* Alamofire in Frameworks */,
-				AE97C64E2BD7EA5F001F6C1A /* AlamofireDynamic in Frameworks */,
+				AE97C6842BD86BBE001F6C1A /* Alamofire in Frameworks */,
+				AE97C6862BD86BBE001F6C1A /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +117,7 @@
 		2FFD082781F3DC4A21797A98 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				AE97C64F2BD7EA9A001F6C1A /* Managers */,
 				AE97C63C2BD7D9C8001F6C1A /* Screens */,
 				696BC355A878D43103826F02 /* SpeedTestIosApp.swift */,
 			);
@@ -147,6 +154,7 @@
 		A2A543B6621839A1F519F2CD /* SpeedTestIos */ = {
 			isa = PBXGroup;
 			children = (
+				AE97C6682BD85D9A001F6C1A /* Models */,
 				D6A4501385D076EBEA7A4FDC /* Resources */,
 				2FFD082781F3DC4A21797A98 /* Sources */,
 				C6ECA0E490AE727A4B6FE630 /* Tests */,
@@ -202,6 +210,23 @@
 				AE97C6482BD7DED7001F6C1A /* SpeedTestView.swift */,
 			);
 			path = SpeedTest;
+			sourceTree = "<group>";
+		};
+		AE97C64F2BD7EA9A001F6C1A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AE97C6502BD7EAAD001F6C1A /* ConnectionSpeedTest.swift */,
+				AE97C65A2BD8517F001F6C1A /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AE97C6682BD85D9A001F6C1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE00B6B82BD8F7E900551427 /* CoreDataModel.xcdatamodeld */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		B96A540A34DE979AF189858A /* Cache */ = {
@@ -273,8 +298,8 @@
 			);
 			name = SpeedTestIos;
 			packageProductDependencies = (
-				AE97C64B2BD7EA5F001F6C1A /* Alamofire */,
-				AE97C64D2BD7EA5F001F6C1A /* AlamofireDynamic */,
+				AE97C6832BD86BBE001F6C1A /* Alamofire */,
+				AE97C6852BD86BBE001F6C1A /* AlamofireDynamic */,
 			);
 			productName = SpeedTestIos;
 			productReference = 61FFA1108CDDB4619A880051 /* SpeedTestIos.app */;
@@ -304,7 +329,7 @@
 			);
 			mainGroup = 294455F6496291D74D2D8E50;
 			packageReferences = (
-				AE97C64A2BD7EA5F001F6C1A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AE97C6822BD86BBE001F6C1A /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 609604FE111BE6684A2B74BE /* Products */;
 			projectDirPath = "";
@@ -349,11 +374,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE97C6462BD7DD71001F6C1A /* SettingsView.swift in Sources */,
+				AE97C6512BD7EAAD001F6C1A /* ConnectionSpeedTest.swift in Sources */,
 				4882AB4CB352AB2A2928B87B /* TuistAssets+SpeedTestIos.swift in Sources */,
 				AE97C6492BD7DED7001F6C1A /* SpeedTestView.swift in Sources */,
 				AE97C6432BD7DA74001F6C1A /* MainView.swift in Sources */,
+				AE00B6BA2BD8F7E900551427 /* CoreDataModel.xcdatamodeld in Sources */,
 				006B7D28E112A13E73251F21 /* TuistBundle+SpeedTestIos.swift in Sources */,
 				6ECDE95BE310F8E24DD3A42F /* SpeedTestIosApp.swift in Sources */,
+				AE97C65B2BD8517F001F6C1A /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +430,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Derived/InfoPlists/SpeedTestIos-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,7 +456,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Derived/InfoPlists/SpeedTestIos-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -622,7 +650,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AE97C64A2BD7EA5F001F6C1A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		AE97C6822BD86BBE001F6C1A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
 			requirement = {
@@ -633,17 +661,31 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AE97C64B2BD7EA5F001F6C1A /* Alamofire */ = {
+		AE97C6832BD86BBE001F6C1A /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AE97C64A2BD7EA5F001F6C1A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = AE97C6822BD86BBE001F6C1A /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		AE97C64D2BD7EA5F001F6C1A /* AlamofireDynamic */ = {
+		AE97C6852BD86BBE001F6C1A /* AlamofireDynamic */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AE97C64A2BD7EA5F001F6C1A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = AE97C6822BD86BBE001F6C1A /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = AlamofireDynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		AE00B6B82BD8F7E900551427 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE00B6B92BD8F7E900551427 /* Model.xcdatamodel */,
+			);
+			currentVersion = AE00B6B92BD8F7E900551427 /* Model.xcdatamodel */;
+			name = CoreDataModel.xcdatamodeld;
+			path = "/Users/kirillkoskarev/SpeedTest-ios/SpeedTestIos/Models/CoreDataModel.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C3BC38887883448D08BF9D8F /* Project object */;
 }
