@@ -15,7 +15,9 @@ let project = Project(
             ),
             sources: ["SpeedTestIos/Sources/**"],
             resources: ["SpeedTestIos/Resources/**"],
-            dependencies: []
+            dependencies: [
+                .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.6.2") // Добавьте эту строку
+            ]
         ),
         .target(
             name: "SpeedTestIosTests",
