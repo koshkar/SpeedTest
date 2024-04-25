@@ -53,6 +53,9 @@ struct SpeedTestView: View {
                     if let settings = settings.first {  // Если получены настройки
                         Text("Тип теста: \(settings.testType ?? "Не установлен")")  // Показываем тип теста
                             .padding(.top, 20)  // Отступ сверху
+                        Text("Тестируемый url: \(settings.url ?? "Не установлен")")
+                            .padding(.top, 20)  // Отступ сверху
+                        
                     }
                 }
                 
